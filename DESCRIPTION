@@ -10,7 +10,20 @@ Authors@R:
 Description: What the package does (one paragraph).
 License: `use_mit_license()`, `use_gpl3_license()` or friends to
     pick a license
+Imports:
+    rutils,
+    shiny (>= 1.4.0.2),
+    shinyWidgets (>= 0.5.1),
+    bs4Dash (>= 0.5.0),
+    stringr (>= 1.4.0),
+    checkmate (>= 2.0.0),
+    purrr (>= 0.3.4),
+    dplyr (>= 1.0.0),
+    reactable (>= 0.1.0.1),
+    checkmate (>= 2.0.0)
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.0
+Suggests: 
+    testthat
